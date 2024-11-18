@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <title>Desa Purosari</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+     
+          <!-- Navbar -->
+          <nav class="navbar">
+            <div class="navbar-logo">
+              <h1>Desa Purwosari</h1>
+            </div>
+            <ul class="navbar-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#map">Peta</a></li>
+              <li><a href="#biography">Biografi</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </nav>
+      
+          <!-- Homepage -->
+          <section id="home" class="home-section">
+            <div class="home-content">
+              <h2>Selamat Datang di Desa Purwosari</h2>
+              <p>Desa yang menyediakan pesona desa asri dengan kerukunan antar warganya.</p>
+            </div>
+          </section>
+          <!-- Biografi Desa -->
+          <section id="biography" class="biography-section">
+            <div class="biography-content">
+              <h2>Biografi Desa</h2>
+              <p>
+                sebuah desa yang penuh dengan keindahan alam, budaya yang kaya, dan keramahan warganya,
+                tempat di mana tradisi dan keindahan alam berpadu dengan kehidupan yang tenang. Nikmati suasana damai dan alami yang akan membuat Anda merasa seperti di rumah sendiri..
+              </p>
+              <p>
+                tempat yang menawarkan kedamaian dan keindahan yang luar biasa. Kami bangga bisa memperkenalkan Anda pada kehidupan desa yang sederhana namun penuh makna.
+              </p>
+            </div>
+          </section>
+          <!-- Peta -->
+          <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+          <!-- Contact Section -->
+          <section id="contact" class="contact">
+            <div class="container">
+              <h2>Kontak Kami</h2>
+              <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required />
+      
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+      
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+      
+                <button type="submit">Kirim</button>
+              </form>
+            </div>
+          </section>
+      
+          <!-- Footer Section -->
+          <footer class="footer">
+            <div class="container">
+              <p>&copy; 2024 Desa Purwosari. All Rights Reserved.</p>
+              <div class="footer-links">
+                <a href="#home">Home</a> | <a href="#map">Map</a> |
+                <a href="#contact">Kontak</a>
+              </div>
+            </div>
+          <!-- File Js -->
+           <script src="./script.js"></script>
+
+
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/gadm41_IDN_4_0.js"></script><script src="layers/areasawah_2.js"></script><script src="layers/RWPurwosari_3.js"></script><script src="layers/Clipped_4.js"></script><script src="layers/Perkebunan_5.js"></script><script src="layers/Clipped_6.js"></script><script src="layers/Purwosari_point_7.js"></script><script src="layers/Lapangan_8.js"></script><script src="layers/JalanDesa_9.js"></script><script src="layers/RT_10.js"></script><script src="layers/jalansetapak_11.js"></script><script src="layers/Purwosari_line_12.js"></script><script src="layers/Clipped_13.js"></script><script src="layers/Clipped_14.js"></script><script src="layers/Point_15.js"></script><script src="layers/PointTambahan_16.js"></script><script src="layers/Clipped_17.js"></script>
+        <script src="styles/gadm41_IDN_4_0_style.js"></script><script src="styles/areasawah_2_style.js"></script><script src="styles/RWPurwosari_3_style.js"></script><script src="styles/Clipped_4_style.js"></script><script src="styles/Perkebunan_5_style.js"></script><script src="styles/Clipped_6_style.js"></script><script src="styles/Purwosari_point_7_style.js"></script><script src="styles/Lapangan_8_style.js"></script><script src="styles/JalanDesa_9_style.js"></script><script src="styles/RT_10_style.js"></script><script src="styles/jalansetapak_11_style.js"></script><script src="styles/Purwosari_line_12_style.js"></script><script src="styles/Clipped_13_style.js"></script><script src="styles/Clipped_14_style.js"></script><script src="styles/Point_15_style.js"></script><script src="styles/PointTambahan_16_style.js"></script><script src="styles/Clipped_17_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
